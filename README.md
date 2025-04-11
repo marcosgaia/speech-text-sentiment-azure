@@ -1,3 +1,4 @@
+
 # Projeto: Azure Speech to Text + Análise de Sentimento
 
 Este projeto utiliza os serviços do Microsoft Azure para:
@@ -86,6 +87,38 @@ Aprendemos:
 
 ---
 
+## 🔎 Visão Computacional no Condomínio
+
+Complementando o projeto, foram testadas **imagens simulando situações reais** em áreas comuns do condomínio, usando os serviços de análise de imagem (OCR, detecção de objetos e pessoas) do Azure Cognitive Services.
+
+Imagens analisadas:
+
+| Situação | Imagem |
+|---------|--------|
+| Pessoa em área restrita | ![Pessoa em área restrita](visao-computacional/inputs/pessoa_area_restrita.jpg.png) |
+| Animal solto em área comum | ![Animal solto](visao-computacional/inputs/alerta_animal_solto.jpg.png) |
+| Agressão ou gritos com animal | ![Gritos com animal](visao-computacional/inputs/Gritos ou agressões a animais.png) |
+| Briga entre moradores | ![Briga](visao-computacional/inputs/briga_area_comum_1.jp.png) |
+| Veículo fora da vaga | ![Carro fora da vaga](visao-computacional/inputs/Carro fora da vaga ou descarte irregular.png) |
+| Entrada de entregador | ![Entregador](visao-computacional/inputs/entregador_portaria.jpg.png) |
+| Entrada à noite com reconhecimento facial | ![Entrada noturna](visao-computacional/inputs/entrada_condominio_noite.jpg.png) |
+
+---
+
+## 📁 Estrutura do repositório
+
+```
+speech-text-sentiment-azure/
+├── azure_speech_text_sentiment.py
+├── audio.wav
+├── README.md
+└── visao-computacional/
+    └── inputs/
+        ├── entrada_condominio_noite.jpg.png
+        ├── ...
+```
+
+---
+
 ## 🔗 Repositório
 https://github.com/marcosgaia/speech-text-sentiment-azure
-
