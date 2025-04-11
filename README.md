@@ -104,6 +104,37 @@ Imagens analisadas:
 | Entrada à noite com reconhecimento facial | ![Entrada noturna](visao-computacional/inputs/entrada_condominio_noite.jpg.png) |
 
 ---
+---
+
+## 🔭 Possíveis Aplicações em Condomínios Inteligentes
+
+Este projeto pode ser adaptado e expandido para diversas finalidades reais:
+
+- **Alertas por voz com IA**: detectar falas de emergência ou perigo em tempo real
+- **Monitoramento de segurança com câmeras + som**: visão computacional e áudio em conjunto
+- **Registro automatizado de incidentes**: transcrição e análise automática de interações
+- **Reconhecimento de visitantes e entregadores**: com Azure Vision e OCR
+- **Detecção de anomalias**: como presença em áreas restritas, animais soltos, etc.
+
+---
+
+## ✅ Lições Aprendidas
+
+- Usar **Speech to Text** da Azure para transcrição confiável de áudio
+- Integrar com o **Text Analytics** para análise de sentimentos
+- Tratar erros comuns (formato de áudio, endpoints invertidos)
+- Exportar áudio corretamente com o **Audacity**
+- Criar um projeto completo no **Google Colab**, salvar como `.py` e subir no GitHub
+- Organizar pastas e arquivos para clareza e reaproveitamento
+
+---
+
+## 🧠 Próximos passos (ideias futuras)
+
+- Detectar idioma automaticamente com Azure
+- Aplicar classificadores personalizados com Custom Vision
+- Notificações em tempo real via e-mail, Telegram ou painel web
+
 
 ## 📁 Estrutura do repositório
 
